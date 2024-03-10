@@ -1,0 +1,5 @@
+jump_to_violation_1 violation_1 autosar A7-1-1 /home/dji/catkin_ws/src/zytcodestyle/testdir/main.cpp:5
+jump_to_violation_2 violation_2 autosar A7-1-1 /home/dji/catkin_ws/src/zytcodestyle/testdir/main.cpp:10
+jump_to_violation_3 violation_3 autosar A7-1-1 /home/dji/catkin_ws/src/zytcodestyle/testdir/main.cpp:10
+jump_to_violation_4 violation_4 autosar A7-1-1 /home/dji/catkin_ws/src/zytcodestyle/testdir/main.cpp:10
+jump_to_violation_5 violation_5 autosar A7-1-1 /home/dji/catkin_ws/src/zytcodestyle/testdir/main.cpp:10

@@ -9,14 +9,34 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "onLanguage:covrst",
+    "onLanguage:cpp",
+    "onLanguage:json"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "zytcodestyle.helloWorld",
-        "title": "Hello World"
+        "command": "zytcodestyle.parse",
+        "title": "parse"
+      },
+      {
+        "command": "zytcodestyle.replace",
+        "title": "replace"
+      },
+      {
+        "command": "zytcodestyle.doMyCustomAction",
+        "title": "doMyCustomAction"
       }
+    ],
+    "keybindings": [
+        {
+            "command": "extension.goToPosition",
+            "key": "ctrl+click",
+            "mac": "cmd+click",
+            "when": "editorTextFocus"
+        }
     ]
   },
   "scripts": {
